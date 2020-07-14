@@ -59,3 +59,7 @@ resp = conn.get('search') do |req|
   req.body = {query: 'salmon'}.to_json
 end
 # => GET http://sushi.com/search?param=1&limit=100
+
+
+Faraday.not_a_method
+NotAClass.not_a_method_airsntoiarsnt
